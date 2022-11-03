@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Barre de navigation*/
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 0 25px;
+}
+  nav .gauche{
+    display: flex;
+    flex-wrap:wrap;
+}
+  nav .gauche img{
+    padding-top: 5px;
+}
+  nav .gauche .onglets{
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 10px;
+}
+  nav .gauche .onglets p{
+    margin-left: 10px;
+    cursor:pointer;
+    color: #909191;
+}
+  nav .gauche .onglets p:hover{
+    color: #fff;
+}
+
+ nav .droite {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+nav .droite p {
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*Fin barre de navigation*/
+
+/*films et series*/
+.films-et-seties {
+    background-color: #191a1a;
+    padding: 55px;
+}
+
+.films-et-seties .section {
+    margin-bottom:  55px;
+}
+
+.films-et-seties .section h2 {
+    color: #fff;
+}
+
+.films-et-seties .section .list {
+    display: flex;
+    overflow-x: auto;
+}
+
+.films-et-seties .section a {
+    padding-left: 5px;
+    transition: transform 0.25s;
+}
+
+.films-et-seties .section a:hover {
+    transform: scale(1.05);
+}
+
+.films-et-seties .section a img {
+    height: 140px;
+}
+/*fin films et series*/
+
+/*pied de page*/
+
+footer {
+    background-color: black;
+    padding: 25px 100px;
+    color: #909191;
+}
+
+footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 18px;
+}
